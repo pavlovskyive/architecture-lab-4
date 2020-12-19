@@ -1,0 +1,3 @@
+print hello
+reverse hello
+print hello2

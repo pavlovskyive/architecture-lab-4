@@ -33,7 +33,7 @@ func Parse(commandLine string) engine.Command {
 	parts := strings.Fields(commandLine)
 
 	if len(parts) != 2 {
-		return &engine.printCommand{arg: "SYNTAX ERROR: wrong number of input elements in line: " + commandLine}
+		return &printCommand{arg: "SYNTAX ERROR: wrong number of input elements in line: " + commandLine}
 	}
 
 	command := parts[0]
